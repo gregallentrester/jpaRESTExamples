@@ -1,0 +1,8 @@
+#!/bin/bash -p
+
+kbyport 8080
+
+mvn spring-boot:run -B
+
+
+# https://github.com/spring-guides/gs-accessing-data-rest/blob/main/README.adoc

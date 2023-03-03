@@ -1,0 +1,7 @@
+#!/bin/bash -p
+
+echo;echo;echo
+
+curl http://localhost:8080/messaging/message?name=$1
+
+echo;echo;echo

@@ -1,0 +1,11 @@
+#!/bin/bash -p
+
+caption "call | curl http://localhost:8080"
+cls
+echo;echo;echo
+
+curl http://localhost:8080
+
+echo;echo;echo
+
+# https://github.com/spring-guides/gs-accessing-data-rest/blob/main/README.adoc

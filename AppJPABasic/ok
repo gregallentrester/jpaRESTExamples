@@ -1,0 +1,5 @@
+#!/bin/bash -p
+
+mvn spring-boot:run -B
+
+# java -jar ./target/JPA.jar

@@ -1,0 +1,8 @@
+#!/bin/bash -p
+
+echo;echo;echo
+
+curl -d "{\"text\":\"Hello\"}" -H "Content-Type: application/json" \
+     http://localhost:8080/messaging/message?name=$1
+
+echo;echo;echo
